@@ -1,6 +1,6 @@
 <?php
 
-namespace Waxis\Repeater;
+namespace Waxis\Seo;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
@@ -14,6 +14,7 @@ class RepeaterServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+		/*
         if (! $this->app->routesAreCached()) {
             require __DIR__.'/routes.php';
         }
@@ -24,6 +25,7 @@ class RepeaterServiceProvider extends ServiceProvider
             __DIR__.'/assets' => resource_path('assets/common/libs/repeater/'),
             __DIR__.'/lang' => resource_path('lang'),
         ]);
+		*/
     }
 
     /**
